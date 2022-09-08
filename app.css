@@ -1,0 +1,58 @@
+/* universal selector and resetting browser defaults */
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* header styling  */
+header {
+  border: 2px solid red;
+  height: 18vh;
+  width: 100vw;
+}
+
+/* main section styling */
+main {
+  border: 2px solid peru;
+  height: 30vh;
+  width: 100vw;
+}
+
+/*section container fot two items  */
+section {
+  width: 100vw;
+  height: 35vh;
+  border: 2px solid black;
+}
+
+/*  paragraph styling for text */
+p {
+  display: inline;
+  text-align: center;
+  background-color: yellow;
+}
+
+/* aside styling */
+section aside {
+  border: 2px solid blue;
+  height: 100%;
+  width: 40%;
+  float: left;
+}
+
+/* article styling */
+article {
+  width: 60%;
+  height: 100%;
+  border: 2px solid brown;
+  float: right;
+}
+
+/* footer styling */
+footer {
+  height: 15vh;
+  width: 100vw;
+  border: 2px solid green;
+}
